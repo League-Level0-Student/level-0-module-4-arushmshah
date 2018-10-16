@@ -10,12 +10,19 @@ face.resize(990,600);
 }
 void draw(){
   background(face);
-  if(mouseX>240){
-    mouseX=240;
+  if(mouseX<235){
+    mouseX=235;
   } 
 
-    if(mouseY>100){
-    mouseY=100;
+    if(mouseY<95){
+    mouseY=95;
+  } 
+   if(mouseX>250){
+    mouseX=250;
+ } 
+  
+  if(mouseY>107){
+    mouseY=107;
   } 
 
   fill(#FFFFFF);

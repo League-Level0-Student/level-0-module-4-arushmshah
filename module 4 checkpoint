@@ -1,0 +1,82 @@
+Teacher­led. Before starting, make sure every student has imported their Module 0 Java
+Project into Eclipse. Check that all programs are closed but students have selected the
+default package in the Eclipse Package Explorer.
+
+
+Instruct students to do the following ­ check student screens to monitor understanding.
+
+
+Help students who are stuck, but note lack of mastery. 
+
+          1. Create a new Java class called Checkpoint
+          
+          2. Add a main method to the class
+          
+          3. Code a pop­up dialog to ask the user for their favorite color, 
+          e.g. “red”
+          
+          4. Code another pop­up dialog to tell the user that the color they typed is also
+your favorite color, 
+          e.g. “red is also my favorite color”
+          
+          5. Draw a triangle on the screen using a Robot object (Hint: turn angle = 120).
+
+
+EXTRA: For students who complete activity quickly, have them try to turn the name of
+the color into a matching pen color and have the robot draw the triangle in that color.
+This is NOT part of the checkpoint! 
+Copyright League of Amazing Programmers 2013-2017
+
+
+import javax.swing.JOptionPane;
+
+import org.jointheleague.graphical.robot.Robot;
+
+public class Checkpoint {
+public static void main(String[] args) {
+	Robot R=new Robot();
+	R.penDown();
+	R.setSpeed(70);
+	String color = JOptionPane.showInputDialog("What is your favorite color?");
+JOptionPane.showInputDialog(null, color+" is my favorite color too!");
+for (int i = 0; i < 3;  i++) {
+	R.move(150);
+	R.turn(120);
+}
+}
+}
+
+1. Fill in the blanks
+__________String__________ favoriteHobby = "programming";
+___________int_________ numberOfToes = 10;
+___________int_________ degreesInARightAngle = 90;
+____________int________ myAge = _________11___________;
+String __________j__________ = "Java";
+double __________a__________ = 3.14159;
+2. Initialize these variables...
+    String whatIWantToBeWhenIGrowUp="coder";
+    int facebookFriends=1000000;
+    String myBirthday="december 20, 2007";
+    int sidesInATriangle=3;
+3. Declare and initialize variables for...
+    ­ String birthday="movie";'
+    ­ String lastmealyouate="noodles"
+    ­ int bed=10;
+    ­ int = Robotprogramsyouhavewritten=100;
+    
+    
+    
+    
+    
+    On paper, write code that does the following: 
+    
+    
+1. Get a random whole number that is less than 1,000.
+Random randy=i(i<1000)
+2. Get another random whole number that is less than 900.
+3. Print:
+          a) What happens when you add the numbers , e.g. 99 + 64 = 163 
+          b) What happens when you subtract the numbers , e.g. 99 ­ 64 = 35 
+    
+    
+
